@@ -21,3 +21,8 @@ Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEvent
 Traceback (most recent call last):
   File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
 NameError: name 'ResourceWarning' is not defined
+[Sat Feb 04 13:52:29.674727 2023] [wsgi:error] [pid 5696:tid 140225434887936] [remote 172.24.224.1:65115] Not Found: /favicon.ico
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
