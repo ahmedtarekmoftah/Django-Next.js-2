@@ -1,0 +1,5 @@
+[client]
+database = 'thearabian'
+user = 'ahmed'
+password = '#Tamma24july2001#'
+default-character-set = 'utf8'

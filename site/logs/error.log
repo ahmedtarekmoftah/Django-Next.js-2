@@ -1,0 +1,23 @@
+[Sat Feb 04 12:44:01.955101 2023] [wsgi:error] [pid 2264:tid 140103606408960] [remote 172.24.224.1:52320] Invalid HTTP_HOST header: '172.24.231.153'. You may need to add '172.24.231.153' to ALLOWED_HOSTS.
+[Sat Feb 04 12:44:01.977184 2023] [wsgi:error] [pid 2264:tid 140103606408960] [remote 172.24.224.1:52320] Bad Request: /
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+[Sat Feb 04 12:49:46.924488 2023] [wsgi:error] [pid 2358:tid 140300363523840] [remote 172.24.224.1:52395] Invalid HTTP_HOST header: 'www.the-arabian.com'. You may need to add 'www.the-arabian.com' to ALLOWED_HOSTS.
+[Sat Feb 04 12:49:46.945069 2023] [wsgi:error] [pid 2358:tid 140300363523840] [remote 172.24.224.1:52395] Bad Request: /
+[Sat Feb 04 12:49:47.072816 2023] [wsgi:error] [pid 2358:tid 140300481095424] [remote 172.24.224.1:52397] Invalid HTTP_HOST header: 'www.the-arabian.com'. You may need to add 'www.the-arabian.com' to ALLOWED_HOSTS.
+[Sat Feb 04 12:49:47.091350 2023] [wsgi:error] [pid 2358:tid 140300481095424] [remote 172.24.224.1:52397] Bad Request: /favicon.ico
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+[Sat Feb 04 12:50:50.939112 2023] [wsgi:error] [pid 3580:tid 140223378589440] [remote 172.24.224.1:52400] Not Found: /favicon.ico
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
