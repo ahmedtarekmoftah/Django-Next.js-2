@@ -25,3 +25,6 @@
 172.24.224.1 - - [04/Feb/2023:15:57:23 +0200] "GET /favicon.ico HTTP/1.1" 404 520 "https://www.the-arabian.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 172.24.224.1 - - [04/Feb/2023:16:06:15 +0200] "GET /main HTTP/1.1" 301 594 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 172.24.224.1 - - [04/Feb/2023:16:09:13 +0200] "GET / HTTP/1.1" 301 586 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+172.24.224.1 - - [04/Feb/2023:16:26:47 +0200] "GET / HTTP/1.1" 200 8381 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+172.24.224.1 - - [04/Feb/2023:16:26:47 +0200] "GET /static/admin/css/fonts.css HTTP/1.1" 404 520 "https://www.the-arabian.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+172.24.224.1 - - [04/Feb/2023:16:26:47 +0200] "GET /favicon.ico HTTP/1.1" 404 2447 "https://www.the-arabian.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
