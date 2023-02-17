@@ -118,7 +118,8 @@ REST_FRAMEWORK = {
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
 CORS_ALLOWED_ORIGINS = [
-    "https://169.254.31.15"
+    "https://169.254.31.15",
+    "http://localhost:3000"
 ]
 
 LANGUAGE_CODE = 'en-us'
