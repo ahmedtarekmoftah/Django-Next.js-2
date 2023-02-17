@@ -117,9 +117,6 @@ REST_FRAMEWORK = {
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-CORS_ALLOWED_ORIGINS = [
-    "https://123.254.313.15"
-]
 
 LANGUAGE_CODE = 'en-us'
 
