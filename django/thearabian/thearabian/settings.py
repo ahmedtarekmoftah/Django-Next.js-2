@@ -73,7 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'thearabian.wsgi.application'
-
+CSRF_COOKIE_NAME = "XSRF-TOKEN"
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
