@@ -7,7 +7,7 @@ from .serializers import UserSerializer, GroupSerializer, CountrySerializer
 
 class CountryDetailAPIView(generics.RetrieveAPIView):
     queryset = country.objects.all()
-    serializer_classes = CountrySerializer
+    serializer_class = CountrySerializer
     permissions_classes = [permissions.IsAdminUser]
     authentication_classes = [authentication.SessionAuthentication,
                               authentication.TokenAuthentication]
