@@ -6,7 +6,7 @@ from .serializers import UserSerializer, GroupSerializer, CountrySerializer
 
 
 class CountryDetailAPIView(generics.RetrieveAPIView):
-    queryset = Country.objects.all()
+    queryset = country.objects.all()
     serializer_class = CountrySerializer
 
 
