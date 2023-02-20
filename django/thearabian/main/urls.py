@@ -12,5 +12,7 @@ urlpatterns = [
     path('auth/', obtain_auth_token),
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('<int:pk>', views.country_detail_view),
+    path('country/<int:pk>', views.country_detail_view),
+    path('country', views.country_list_view),
+
 ]

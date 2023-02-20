@@ -14,3 +14,14 @@ class CountryDetailAPIView(generics.RetrieveAPIView):
 
 
 country_detail_view = CountryDetailAPIView.as_view()
+
+
+class CountryListDetailAPIView(generics.ListAPIView):
+    queryset = country.objects.all()
+    serializer_class = CountrySerializer
+    permissions_classes = [permissions.IsAdminUser]
+    authentication_classes = [authentication.SessionAuthentication,
+                              authentication.TokenAuthentication]
+
+
+country_list_view = CountryListDetailAPIView.as_view()
