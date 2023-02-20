@@ -16,7 +16,7 @@ class CountryDetailAPIView(generics.RetrieveAPIView):
 country_detail_view = CountryDetailAPIView.as_view()
 
 
-class CountryListDetailAPIView(generics.ListAPIView):
+class CountryListCreateDetailAPIView(generics.ListCreateAPIView):
     queryset = country.objects.all()
     serializer_class = CountrySerializer
     permissions_classes = [permissions.IsAdminUser]
@@ -24,4 +24,4 @@ class CountryListDetailAPIView(generics.ListAPIView):
                               authentication.TokenAuthentication]
 
 
-country_list_view = CountryListDetailAPIView.as_view()
+country_list_view = CountryListCreateDetailAPIView.as_view()
