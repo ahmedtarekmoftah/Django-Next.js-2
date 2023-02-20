@@ -13,6 +13,9 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('country/<int:pk>', views.country_detail_view),
-    path('country', views.country_list_view),
+    path('country', views.country_list_create_view),
+    path('country/update/<int:pk>', views.country_update_view),
+    path('country/destroy/<int:pk>', views.country_destroy_view),
+
 
 ]
