@@ -84,6 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
             'read_default_file': '/thearabian/auth/mysql.cnf',
+            'charset': 'utf8mb4'
         },
     }
 }
