@@ -1,6 +1,6 @@
 [client]
-database = 'thearabian'
+database = 'thearabian1'
 user = 'ahmed'
 password = '#Tamma24july2001#'
-default-character-set = utf8mb4
+default-character-set = 'utf8mb4'
 
